@@ -1107,6 +1107,7 @@ namespace HermesProxy.World.Server
                 packetType = type;
             }
 
+
             public void Invoke(WorldSocket session, WorldPacket packet)
             {
                 if (packetType == null)
